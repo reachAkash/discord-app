@@ -5,10 +5,7 @@ export default function Home() {
   const state = true;
   return (
     <div className="">
-    <p className="text-red-500">Discord App</p>
-    <Button className={cn(
-       "bg-yellow-500", state && "bg-green-500",
-    )}>Akash</Button>
+      This is a protected route.
     </div>
   );
 }
